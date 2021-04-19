@@ -13,12 +13,16 @@
 <body>
     <div class="pagina">
         <div class="principal">
-            <form class="forma">             
-                <input type="password" pattern="[0-9]*" inputmode="numeric" maxlength="3" placeholder="Enter Card Number">
-                <input type="passwd" placeholder="MM">
-                <input type="passwd" placeholder="YY">
-                <input type="passwd" placeholder="CCV">
-                <input type="user" placeholder="Name On The Card">
+            <form class="forma">
+                <input type="number" maxlength="16" placeholder="Enter Card Number"
+                    oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                <input type="number" maxlength="2" placeholder="MM"
+                    oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                <input type="number" maxlength="2" placeholder="YY"
+                    oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                <input type="number" maxlength="3" placeholder="CCV"
+                    oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                <input type="text" minlength="1" maxlength="60" pattern="[a-zA-Z ]*" placeholder="Name On The Card">
                 <button>Login</button>
                 <p class="registro">Save details for fast payments <a href="registro.html">Learn how</a>?</p>
             </form>
