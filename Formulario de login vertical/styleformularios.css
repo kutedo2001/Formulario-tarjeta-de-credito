@@ -1,9 +1,42 @@
-body {
-  padding-top: 5px;
+.cursor {
+  cursor: pointer;
+  font-weight: bold;
 }
-.login-form{width: 5px}
-.login-title{font-family: 'Correo electronico', sans-serif;text-align:center;color: rgb(77, 67, 67);}
-.login-userinput{margin-bottom: 5px;}
-.login-button{margin-top:5px;}
-.login-options{margin-bottom:0px;}
-.login-forgot{float: up;}
+
+button {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#check-one {
+  margin-top: 10px;
+}
+
+p {
+  font-weight: bold;
+}
+
+h1 {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 40px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.548), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  margin-left: 850px;
+  width: 200px;
+}
+
+.principal {
+  margin: auto;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 200px;
+  padding: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.548), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+  border-left: 5px solid blue;
+}
+
+input {
+  border-radius: 5px;
+}
