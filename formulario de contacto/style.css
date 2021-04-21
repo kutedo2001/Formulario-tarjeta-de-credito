@@ -5,9 +5,10 @@ body {
 }
 
 .container {
-  margin: auto;
-  padding: 0px 0;
-  height: 0px;
+  width: 560px;
+    padding: 8% 0 0;
+    margin: auto;
+    text-align: center;
 }
 
 input {
@@ -29,6 +30,14 @@ input {
   cursor: pointer;
   background-color: blue;
   color: white;
+}
+.principal {
+  z-index: 1;
+  background: #ffffff;
+  padding: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
 }
 
 
