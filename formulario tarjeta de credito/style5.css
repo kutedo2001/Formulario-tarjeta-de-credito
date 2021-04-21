@@ -18,6 +18,12 @@ body {
     border-radius: 10px;
 }
 
+h1 {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    width: 360px;
+    color: white;
+}
+
 .principal input {
     outline: 0;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.116), 0 5px 5px 0 rgba(0, 0, 0, 0.103);
@@ -32,15 +38,23 @@ body {
     font-size: 14px;
 }
 
-table{width: 350px;}
-table td{padding:0 10px;}
+table {
+    width: 350px;
+}
+
+table td {
+    padding: 0 10px;
+}
 
 table p {
     font-size: 13px;
     text-align: left;
 }
 
-.imagen{max-width: 80px;max-height: 80px;}
+.imagen {
+    max-width: 80px;
+    max-height: 80px;
+}
 
 .principal button {
     text-transform: uppercase;
@@ -87,5 +101,7 @@ table p {
 }
 
 .pagar {
-    background-color: rgb(255, 145, 0);margin-left: 80px;min-width: 150px;
+    background-color: rgb(255, 145, 0);
+    margin-left: 80px;
+    min-width: 150px;
 }
