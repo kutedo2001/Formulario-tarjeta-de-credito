@@ -82,7 +82,7 @@ table p {
     font-size: 12px;
 }
 
-.principal a {
+.principal .ag {
     color: rgb(21, 78, 233);
     cursor: pointer;
     text-decoration: none;
@@ -106,14 +106,11 @@ table p {
     min-width: 150px;
 }
 
-.volver {
-    margin-top: 20px;
+.volver{margin-top: 20px;
     margin-bottom: 10px;
-    text-align: left;
-}
+    text-align: left;}
 
-.volver a{
+.botoncito {
     color: black;
     text-decoration: none;
-    text-align: left;
 }
