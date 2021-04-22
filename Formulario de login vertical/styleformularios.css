@@ -40,3 +40,12 @@ p {
 input {
   border-radius: 5px;
 }
+
+.volver{margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: left;}
+
+.botoncito {
+  color: black;
+  text-decoration: none;
+}
