@@ -1,4 +1,8 @@
-*{font-family: Montserrat, Helvetica, sans-serif;letter-spacing: 1px;}
+* {
+    font-family: Montserrat, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-align: justify;
+}
 
 body {
     width: 1200px;
@@ -6,10 +10,24 @@ body {
     margin: auto;
 }
 
-h1,h2{text-align: center;}
+h1,
+h2 {
+    text-align: center;
+}
 
-h1,h2,p{padding: 5px;}
+h1,
+h2,
+p {
+    padding: 5px;
+}
 
-p{font-size: 18px;}
+p {
+    font-size: 18px;
+}
 
-br,ul,li{margin-bottom: 40px;margin-top: 40px;}
+br,
+ul,
+li {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
