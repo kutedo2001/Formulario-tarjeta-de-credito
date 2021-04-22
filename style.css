@@ -1,0 +1,45 @@
+body {
+    background-color: grey;
+}
+
+button {
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    background-color: rgba(12, 143, 12, 0.781);box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+button:hover {
+    background-color: grey;
+    color: rgba(228, 220, 220, 0.849);
+    border: 2px dashed black;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+p{font-size: 30px;}
+
+.vertical {
+    margin-top: 15px;
+}
+
+.pagina {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+    text-align: center;
+}
+
+.principal {
+    z-index: 1;
+    background: #ffffff;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+}

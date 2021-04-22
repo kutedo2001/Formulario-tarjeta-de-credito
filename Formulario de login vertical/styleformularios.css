@@ -1,14 +1,14 @@
-.cursor {
+.cursor1 {
   cursor: pointer;
   font-weight: bold;
 }
 
-button {
+.cancelar1 {
   cursor: pointer;
   margin-top: 10px;
 }
 
-#check-one {
+#check-one1 {
   margin-top: 10px;
 }
 
@@ -16,7 +16,7 @@ p {
   font-weight: bold;
 }
 
-h1 {
+.h11 {
   margin-top: 100px;
   text-align: center;
   margin-bottom: 40px;
@@ -25,7 +25,7 @@ h1 {
   width: 200px;
 }
 
-.principal {
+.principal1 {
   margin: auto;
   z-index: 1;
   background: #ffffff;
